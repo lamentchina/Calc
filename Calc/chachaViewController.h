@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface chachaViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *display;
 
 @end

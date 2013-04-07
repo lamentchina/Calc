@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E285611A16BA6D5B006FDA3A /* CalculaterBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = E285611916BA6D5B006FDA3A /* CalculaterBrain.m */; };
 		E2A0781616B9116E0034753E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A0781516B9116E0034753E /* UIKit.framework */; };
 		E2A0781816B9116E0034753E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A0781716B9116E0034753E /* Foundation.framework */; };
 		E2A0781A16B9116E0034753E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2A0781916B9116E0034753E /* CoreGraphics.framework */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E285611816BA6D5B006FDA3A /* CalculaterBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculaterBrain.h; sourceTree = "<group>"; };
+		E285611916BA6D5B006FDA3A /* CalculaterBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculaterBrain.m; sourceTree = "<group>"; };
 		E2A0781116B9116E0034753E /* Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A0781516B9116E0034753E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2A0781716B9116E0034753E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +83,8 @@
 				E2A0782416B9116E0034753E /* chachaAppDelegate.h */,
 				E2A0782516B9116E0034753E /* chachaAppDelegate.m */,
 				E2A0782716B9116E0034753E /* MainStoryboard.storyboard */,
+				E285611816BA6D5B006FDA3A /* CalculaterBrain.h */,
+				E285611916BA6D5B006FDA3A /* CalculaterBrain.m */,
 				E2A0782A16B9116E0034753E /* chachaViewController.h */,
 				E2A0782B16B9116E0034753E /* chachaViewController.m */,
 				E2A0781C16B9116E0034753E /* Supporting Files */,
@@ -165,6 +170,7 @@
 				E2A0782216B9116E0034753E /* main.m in Sources */,
 				E2A0782616B9116E0034753E /* chachaAppDelegate.m in Sources */,
 				E2A0782C16B9116E0034753E /* chachaViewController.m in Sources */,
+				E285611A16BA6D5B006FDA3A /* CalculaterBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +251,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calc/Calc-Prefix.pch";
 				INFOPLIST_FILE = "Calc/Calc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -256,6 +263,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calc/Calc-Prefix.pch";
 				INFOPLIST_FILE = "Calc/Calc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -280,6 +288,7 @@
 				E2A0783116B9116E0034753E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
